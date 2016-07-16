@@ -22,3 +22,10 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.sign-up-box {
+    background-color:#f1f1f1;
+    padding:30px 50px;
+    max-width:380px;
+    margin-top:50px;
+}
