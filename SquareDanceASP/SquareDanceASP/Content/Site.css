@@ -28,4 +28,54 @@ textarea {
     padding:30px 50px;
     max-width:380px;
     margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    color: #726969;
+    font-weight:600;
+}
+
+#loginDiv {
+    background-color:#f1f1f1;
+    padding:30px 50px;
+    margin-top:50px;
+    height:280px;
+}
+
+#CreateDiv {
+    color:white;
+    background-color:#1f92d5;
+    padding:30px 50px;
+    margin-top:50px;
+    height:280px;
+}
+
+@media(max-width:991px) {
+    #CreateDiv {
+        background-color:#f1f1f1;
+        color:black;
+    }
+}
+
+
+@media(max-width:450px) {
+    .sign-up-box {
+        background-color:#ffffff;
+    }
+}
+
+
+.navbar {
+    background-color:#f1f1f1;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color:#1f92d5;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color:#1f92d5;
+}
+
+#NavBtn {
+    background-color:salmon;
 }

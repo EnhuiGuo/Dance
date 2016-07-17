@@ -2,10 +2,11 @@
 @{
     ViewBag.Title = "Register";
 }
-<div class="sign-up-box col-md-offset-4">
+<div class="sign-up-box">
     @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
     {
         @Html.AntiForgeryToken()
+        <h2 class="text-center" style="font-size:17px">注册牵手广场舞,分享精彩世界</h2>
         @Html.ValidationMessage("Register", new { @class = "text-danger" })
         <div class="form-group">
             @Html.LabelFor(m => m.UserName, new { @class = "col-md-12" })
