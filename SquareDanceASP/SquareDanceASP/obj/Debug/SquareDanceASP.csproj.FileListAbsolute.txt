@@ -165,8 +165,9 @@ E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\bin\Microsoft.Owin.Security.OAuth
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\bin\Microsoft.Owin.Security.Google.xml
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\bin\Microsoft.Owin.Security.Twitter.xml
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.csprojResolveAssemblyReference.cache
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.Migrations.init.resources
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.csproj.GenerateResource.Cache
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.dll
 E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.pdb
+E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.Migrations.AddVideoTable.resources
+E:\chengxu\Dance\SquareDanceASP\SquareDanceASP\obj\Debug\SquareDanceASP.csprojResolveAssemblyReference.cache

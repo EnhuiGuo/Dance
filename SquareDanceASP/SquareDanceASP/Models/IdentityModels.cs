@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
+using SquareDanceASP.DBModels;
+using System.Collections.Generic;
 
 namespace SquareDanceASP.Models
 {
@@ -21,6 +23,7 @@ namespace SquareDanceASP.Models
         public DateTime BirthDay { get; set; }
         public int Gender { get; set; }
         public string Name { get; set; }
+        public virtual ICollection<UserVideo> UserVideos { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
