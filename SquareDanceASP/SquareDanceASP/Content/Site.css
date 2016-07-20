@@ -93,8 +93,22 @@ textarea {
     cursor:pointer;
 }
 
-#SearchBox {
-    display:inline-block;
-    font-size:16px;
-    width:100%;
+.navbar-header {
+    float:left;
+    margin-right: 0;
+    margin-left: 0;
 }
+
+.navbar {
+    border-radius: 0;
+}
+
+#logoutForm {
+    float:right;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+

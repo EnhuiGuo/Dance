@@ -4,14 +4,19 @@
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
     @Html.AntiForgeryToken()
-    <ul class="nav navbar-nav navbar-right">
-        <li>
-            <i id="DengLuTuBiao" class="fa fa-user" aria-hidden="true"></i>
+    <ul class="nav">
+        <li class="dropdown" style="height:50px;">
+            <i id="DengLuTuBiao" class="fa fa-user dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+            <ul class="dropdown-menu dropdown-menu-right" style="text-align:center;">
+                <li>
+                    @Html.ActionLink("您好，" + User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                </li>
+                <li><a class="fa fa-battery-1"></a></li>
+                <li>
+                    <a href="javascript:document.getElementById('logoutForm').submit()">退出 <i class="fa fa-sign-out"></i></a>
+                </li>
+            </ul>
         </li>
-        @*<li>
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
-        </li>
-        <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>*@
     </ul>
     }
 }
