@@ -4,10 +4,10 @@
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
     @Html.AntiForgeryToken()
-    <ul class="nav">
+    <ul class="nav" style="width:20%">
         <li class="dropdown" style="height:50px;">
             <i id="DengLuTuBiao" class="fa fa-user dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-            <ul class="dropdown-menu dropdown-menu-right" style="text-align:center;">
+            <ul class="dropdown-menu dropdown-menu-right">
                 <li>
                     @Html.ActionLink("您好，" + User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
                 </li>

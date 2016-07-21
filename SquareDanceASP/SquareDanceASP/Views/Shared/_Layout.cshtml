@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="~/Content/font-awesome-4.6.3/css/font-awesome.min.css"/>
 </head>
 <body>
-    <div id="headBar" class="navbar navbar-inverse navbar-fixed-top">
+    <div id="headBar" class="navbar navbar-inverse navbar-fixed-top" style="overflow-wrap:normal">
         <div class="container">
             <div class="navbar-header">
                 @Html.ActionLink("牵手广场舞", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div id="SearchBar" class="input-group" >
+                <input type="text" class="form-control" placeholder="搜索"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-secondry" type="button"><i class="fa fa-search"></i></button>
+                </span>
             </div>
             <div>
                 @Html.Partial("_LoginPartial")

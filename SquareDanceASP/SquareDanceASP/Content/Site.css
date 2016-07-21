@@ -112,3 +112,36 @@ textarea {
     left: auto;
 }
 
+#SearchBar {
+    float:left;
+    width:40%;
+    margin-top:8px;
+    max-width:400px;
+}
+
+#SearchBar .form-control {
+    max-width:unset;
+}
+
+#headBar .container {
+    max-width:unset;
+}
+
+
+#headBar .navbar-header {
+    width:20%;
+}
+
+@media(max-width:635px) {
+    #headBar .navbar-header {
+        width:30%;
+    }
+}
+
+@media(max-width:435px) {
+    #headBar .navbar-header {
+        width:40%;
+    }
+}
+
+
