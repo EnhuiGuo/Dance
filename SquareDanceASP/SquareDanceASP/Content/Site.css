@@ -142,6 +142,36 @@ textarea {
     #headBar .navbar-header {
         width:40%;
     }
+
+    #SearchBar {
+        width:50%
+    }
 }
 
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: right;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
+#UploadBtn {
+    color:white;
+    background-color:#1f92d5;
+}
+
+@media(max-width:436px) {
+    #UploadBtn {
+        display:none;
+    }
+
+    #loginLink {
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
